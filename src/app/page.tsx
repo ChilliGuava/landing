@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <main className="max-w-85 mx-auto p-4">
@@ -16,7 +18,7 @@ export default function Home() {
             Outsource your company&#39;s software development effort to
             engineers with experience from Google, Microsoft and Amazon.
           </p>
-          <button>Get in touch</button>
+          <Button className="mt-3">Get in touch</Button>
         </div>
       </div>
     </main>
