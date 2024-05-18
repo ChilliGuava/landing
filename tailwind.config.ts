@@ -25,6 +25,10 @@ const config: Config = {
         90: "90%",
         // 100% is not required as max-w-full will be present by default
       },
+      margin: {
+        7: "7.5%",
+        20: "20%",
+      },
     },
   },
   plugins: [],
