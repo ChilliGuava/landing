@@ -16,6 +16,15 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-geist)"],
       },
+      maxWidth: {
+        50: "50%",
+        60: "60%",
+        70: "70%",
+        80: "80%",
+        85: "85%",
+        90: "90%",
+        // 100% is not required as max-w-full will be present by default
+      },
     },
   },
   plugins: [],
