@@ -16,11 +16,11 @@ export default function Home() {
           <h1 className="font-bold md:text-6xl text-4xl">
             Build better software <span className="block">faster ⚡</span>
           </h1>
-          <p className="md:text-2xl text-base md:mt-5 mt-6">
+          <p className="md:text-2xl text-base mt-6">
             Outsource your company&#39;s software development effort to
             engineers with experience from Google, Microsoft and Amazon.
           </p>
-          <Button className="mt-3">
+          <Button className="mt-6">
             <Link href="/contact">Get in touch</Link>
             <ChevronRight className="h-5 w-5 ml-1" />
           </Button>
