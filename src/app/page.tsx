@@ -11,7 +11,7 @@ export default function Home() {
           <span style={{ color: "#3CD79F" }}>Guava</span>
         </h2>
       </nav>
-      <div className="flex h-screen pb-12">
+      <div className="flex h-screen pb-16">
         <div className="my-auto">
           <h1 className="font-bold md:text-6xl text-4xl">
             Build better software <span className="block">faster ⚡</span>
