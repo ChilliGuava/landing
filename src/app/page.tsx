@@ -40,7 +40,7 @@ export default function Home() {
           </Button>
         </div>
       </motion.div>
-      <section className="bg-white pb-72">
+      <section className="bg-white md:pb-72 pb-60">
         <p className="text-4xl">
           <span className="font-bold">
             We will help you ship better software faster.{" "}
@@ -53,7 +53,8 @@ export default function Home() {
         </p>
         <p className="text-4xl mt-6">
           <span className="font-bold">Web and Mobile app development: </span>
-          full app design and development, or add features to your existing app.
+          full app design and development, or add new features to your existing
+          app.
         </p>
         <p className="text-4xl mt-6">
           <span className="font-bold">Backend: </span>
