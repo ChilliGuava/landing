@@ -29,8 +29,8 @@ export default function Home() {
             Build better software <span className="block">faster ⚡</span>
           </h1>
           <p className="md:text-2xl text-base mt-6">
-            Outsource your company&#39;s software development effort to
-            engineers with experience from Google, Microsoft and Amazon.
+            Get your software development done by engineers with experience from
+            Google, Microsoft and Amazon.
           </p>
           <Button className="mt-6">
             <Link href="#contact" className="">
@@ -40,6 +40,31 @@ export default function Home() {
           </Button>
         </div>
       </motion.div>
+      <section className="bg-white pb-72">
+        <p className="text-4xl">
+          <span className="font-bold">
+            We will help you ship better software faster.{" "}
+          </span>
+          Our team of engineers have worked on products powering millions of
+          users.
+        </p>
+        <p className="text-4xl mt-6">
+          <span className="font-bold">Our services:</span>
+        </p>
+        <p className="text-4xl mt-6">
+          <span className="font-bold">Web and Mobile app development: </span>
+          full app design and development, or add features to your existing app.
+        </p>
+        <p className="text-4xl mt-6">
+          <span className="font-bold">Backend: </span>
+          API development, custom AI/ML models, data pipelines.
+        </p>
+        <p className="text-4xl mt-6">
+          <span className="font-bold">Cloud, devops: </span>
+          Architecture design, CI/CD pipeline, Infrastructure as code.
+        </p>
+      </section>
+
       <section className="w-full pb-12 md:pb-24">
         <div className="containe grid  gap-6 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-6 max-w-[600px] mx-auto">
