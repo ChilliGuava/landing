@@ -40,8 +40,8 @@ export default function Home() {
               Contact Us
             </h2>
             <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Ready to start your project? Drop us a line and we'll get back to
-              you.
+              Ready to start your project? Drop us a line and we&apos;ll get
+              back to you.
             </p>
           </div>
           <div className="mx-auto w-full max-w-[400px] space-y-2">
