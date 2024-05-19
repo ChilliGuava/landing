@@ -52,6 +52,7 @@ export default function Home() {
               data-netlify="true"
             >
               <div className="grid grid-cols-1 gap-6">
+                <input type="hidden" name="form-name" value="contact" />
                 <Input
                   name="company"
                   placeholder="Company name"
