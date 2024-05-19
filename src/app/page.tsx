@@ -1,19 +1,29 @@
+"use client";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useRef } from "react";
 
 export default function Home() {
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
+
   return (
-    <main className="max-w-85 mx-auto p-4">
+    <main className="max-w-85 mx-auto p-4" ref={ref}>
       <nav className="w-full">
         <h2 className="font-bold">
           Chilli
           <span style={{ color: "#3CD79F" }}>Guava</span>
         </h2>
       </nav>
-      <div className="flex h-screen pb-16">
+      <motion.div style={{ y: backgroundY }} className=" flex h-screen pb-16">
         <div className="my-auto">
           <h1 className="font-bold md:text-6xl text-4xl">
             Build better software <span className="block">faster ⚡</span>
@@ -29,7 +39,7 @@ export default function Home() {
             <ChevronRight className="h-5 w-5 ml-1" />
           </Button>
         </div>
-      </div>
+      </motion.div>
       <section className="w-full pb-12 md:pb-24">
         <div className="containe grid  gap-6 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-6 max-w-[600px] mx-auto">
