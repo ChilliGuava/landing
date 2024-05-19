@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className="mx-auto w-full max-w-[400px] space-y-2">
             <form
-              method="post"
+              method="POST"
               name="contact"
               className="space-y-6"
               data-netlify="true"
