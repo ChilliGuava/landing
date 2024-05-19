@@ -30,7 +30,7 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      <section className="w-full pb-12 md:pb-24 bg-red-50">
+      <section className="w-full pb-12 md:pb-24">
         <div className="containe grid  gap-6 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-6 max-w-[600px] mx-auto">
             <h2
