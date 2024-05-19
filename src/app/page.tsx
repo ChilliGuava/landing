@@ -13,7 +13,7 @@ export default function Home() {
     target: ref,
     offset: ["start start", "end start"],
   });
-  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "75%"]);
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
 
   return (
     <main className="max-w-85 mx-auto p-4" ref={ref}>
