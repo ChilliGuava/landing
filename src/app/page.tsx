@@ -31,8 +31,8 @@ export default function Home() {
         </div>
       </div>
       <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container grid  gap-4 px-4 text-center md:px-6 lg:gap-10">
-          <div className="space-y-2 max-w-[600px] mx-auto">
+        <div className="container grid  gap-6 px-4 text-center md:px-6 lg:gap-10">
+          <div className="space-y-6 max-w-[600px] mx-auto">
             <h2
               id="contact"
               className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
@@ -48,10 +48,10 @@ export default function Home() {
             <form
               method="post"
               name="contact"
-              className="space-y-4"
+              className="space-y-6"
               data-netlify="true"
             >
-              <div className="grid grid-cols-1 gap-4">
+              <div className="grid grid-cols-1 gap-6">
                 <Input
                   name="company"
                   placeholder="Company name"
