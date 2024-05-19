@@ -30,8 +30,8 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container grid  gap-6 px-4 text-center md:px-6 lg:gap-10">
+      <section className="w-full pb-12 md:pb-24 bg-red-50">
+        <div className="containe grid  gap-6 px-4 text-center md:px-6 lg:gap-10">
           <div className="space-y-6 max-w-[600px] mx-auto">
             <h2
               id="contact"
